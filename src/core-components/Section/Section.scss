@@ -1,0 +1,29 @@
+.section {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 24px;
+        position: relative;
+        padding-bottom: 10px;
+
+        &:after {
+            content: '';
+            border-bottom: 2px solid #000;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 50%;
+            transform: translateX(-50%);
+
+            @include breakpoint(medium) {
+                width: 10%;
+            }
+        }
+    }
+}

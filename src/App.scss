@@ -1,0 +1,12 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+/* Essential core components */
+@import './core-components/Button/Button.scss';
+@import './core-components/Section/Section.scss';
+
+/* Components */
+@import './components/Header/Header.scss';
+@import './components/Hero/Hero.scss';
+@import './components/AboutSection/AboutSection.scss';
+@import './components/Footer/Footer.scss';

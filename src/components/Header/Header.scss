@@ -1,0 +1,123 @@
+@import '../../core-components/NavItem/NavItem.scss';
+@import '../../core-components/SocialButton/SocialButton.scss';
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition: all 0.25s linear;
+
+    .nav-item {
+        color: $white;
+
+        &::before {
+            background-color: $white;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-weight: 900;
+        text-decoration: none;
+        color: $white;
+
+        @include breakpoint(medium) {
+            font-size: 28px;
+            margin-right: 50px;
+        }
+    }
+
+    &-work {
+        &__logo-wrapper {
+            @include breakpoint(small) {
+                flex: 1;
+            }
+        }
+        &__menu-wrapper {
+            flex: 1;
+            display: none;
+
+            @include breakpoint(medium) {
+                display: flex;
+            }
+        }
+        &__menu-list {
+            display: inline-flex;
+            list-style-type: none;
+        }
+        &__menu-item {
+            margin: 0 25px;
+        }
+        &__social-links-wrapper {
+            display: none;
+
+            @include breakpoint(medium) {
+                display: flex;
+            }
+        }
+        &__social-links {
+            display: inline-flex;
+            list-style-type: none;
+        }
+        &__social-link-item {
+            margin: 0 10px;
+        }
+    }
+
+    &__nav-menu-mobile {
+        display: block;
+        background: transparent;
+        border: 0;
+        font-size: 24px;
+        color: $white;
+
+        @include breakpoint(medium) {
+            display: none;
+        }
+    }
+
+    &.scroll-active {
+        background: $white;
+        padding: 15px 30px;
+        -webkit-box-shadow: 0px 10px 15px -4px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 10px 15px -4px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 10px 15px -4px rgba(0, 0, 0, 0.45);
+
+        .header__logo {
+            font-size: 20px;
+            color: $black;
+        }
+
+        .header__nav-menu-mobile {
+            color: $black;
+        }
+
+        .header__nav-link {
+            color: $black;
+        }
+
+        .social-btn {
+            color: $black;
+
+            &:hover {
+                background-color: #eee;
+            }
+        }
+
+        .nav-item {
+            color: $black;
+
+            &::before {
+                background-color: $black;
+            }
+        }
+    }
+}
