@@ -1,0 +1,32 @@
+.experience-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    position: relative;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__total-exp {
+        font-size: 12px;
+        line-height: 1.33;
+        margin-bottom: 8px;
+    }
+
+    &__role-name {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.33;
+    }
+
+    &__role-period {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.33;
+        margin-bottom: 8px;
+    }
+}
