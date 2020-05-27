@@ -1,7 +1,7 @@
 .nav-item {
     position: relative;
     text-decoration: none;
-    color: $black;
+    color: $grey-10;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -15,7 +15,7 @@
         height: 2px;
         bottom: 0;
         left: 0;
-        background-color: $black;
+        background-color: $grey-10;
         visibility: hidden;
         transform: scaleX(0);
         transition: all 0.25s ease-in-out 0s;

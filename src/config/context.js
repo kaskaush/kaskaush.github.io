@@ -93,6 +93,50 @@ const context = {
             },
         ],
     },
+    projects: [
+        {
+            iconName: 'users',
+            title: "Byju's Class Scheduler",
+            description:
+                'An application to manage student information, schedules and marks across the organization. Developed APIs to retrieve student data and designed UI/UX across the application.',
+            technologies: ['ASP.NET Webforms', 'JavaScript', 'Bootstrap'],
+        },
+        {
+            iconName: 'poll',
+            title: "Byju's DMP",
+            description:
+                'Designed several landing pages for campaigns under Digital Marketing Platform that gained a revenue boost of 30% and inbound traffic.',
+            technologies: ['JavaScript', 'HTML5', 'CSS3', 'Bootstrap'],
+        },
+        {
+            iconName: 'people-arrows',
+            title: 'Talent Mapping Utility',
+            description:
+                'A utility for Talent Managers across the organization to identify and map required talent for a project. Users can filter talent based on tech stack and help Project Managers finding the right fit. Developed APIs to retrieve talent data and designed UI/UX across the application.',
+            technologies: ['Java', 'Springboot', 'AngularJS'],
+        },
+        {
+            iconName: 'database',
+            title: 'DB Cluster Monitor',
+            description:
+                'A web application to monitor real time stats of a database cluster with nodes ranging from 3-25 nodes using informative graphs. Worked on micro-service architecture and built REST APIs that retrieve vital information from each node in a cluster. Also worked on UI/UX across the application.',
+            technologies: ['Java', 'Springboot', 'Shell', 'Python', 'AngularJS'],
+        },
+        {
+            iconName: 'project-diagram',
+            title: 'DB Cluster Configurator',
+            description:
+                'An application to generate and deploy a database cluster for the given nodes. Engineers can create/retrieve/update/delete nodes in a cluster and deploy it immediately on to a network. This application can also be used to visualize a cluster and load balance it. Worked on core data model, load balancing algorithm and visualization.',
+            technologies: ['Java', 'Swing'],
+        },
+        {
+            iconName: 'server',
+            title: 'Cluster Deployment Orchestrator',
+            description:
+                'A POC to deploy a database cluster on given nodes and perform a compartive analysis on Ansible and Puppet.',
+            technologies: ['Python', 'Ansible', 'Puppet'],
+        },
+    ],
     footer: {
         copyRight: {
             text: 'Copyright © 2020 Kaushik Kasibhatla. All rights reserved.',

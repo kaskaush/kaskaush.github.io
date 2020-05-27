@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Section from '../../core-components/Section';
 import ShowcaseCard from '../../core-components/ShowcaseCard';
 
@@ -15,14 +15,14 @@ const ExperienceSection = ({ title, data }) => {
                                     {item.roles &&
                                         item.roles.map((roleData) => {
                                             return (
-                                                <>
+                                                <Fragment key={roleData.role}>
                                                     <span className="experience-section__role-name">
                                                         {roleData.role}
                                                     </span>
                                                     <span className="experience-section__role-period">
                                                         {roleData.period}
                                                     </span>
-                                                </>
+                                                </Fragment>
                                             );
                                         })}
                                 </div>

@@ -1,0 +1,45 @@
+.project-card {
+    background-color: $white;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+
+    &__image-section {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: #181818;
+        min-height: 150px;
+        align-items: center;
+        background: #c4c4c4;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    &__content-section {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+
+    &__description {
+        font-size: 14px;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+
+    &__pill-section {
+        margin-top: 16px;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+}

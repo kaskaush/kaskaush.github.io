@@ -1,10 +1,14 @@
 .section {
-    padding: 50px 50px;
+    padding: 50px 16px;
     display: flex;
     flex-direction: column;
 
+    @include breakpoint(large) {
+        padding: 50px 50px;
+    }
+
     &.inverse {
-        background-color: $grey-c4;
+        background-color: $grey-c0;
     }
 
     &__title {
@@ -18,7 +22,7 @@
 
         &:after {
             content: '';
-            border-bottom: 2px solid #000;
+            border-bottom: 2px solid $grey-10;
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -26,7 +30,7 @@
             transform: translateX(-50%);
 
             @include breakpoint(medium) {
-                width: 10%;
+                width: 30%;
             }
         }
     }
