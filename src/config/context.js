@@ -42,6 +42,41 @@ const context = {
         description:
             'Self directed individual with proven ability to deliver high quality product on time under minimal supervision. Well experienced in development of applications with end-to-end responsibility. Very committed and a capable programmer. Proven expertise in ramping up in new technologies. Able to apply design concepts and efficiently use data structures to solve the problem at hand.',
     },
+    skills: {
+        title: 'Skills',
+        frontEnd: [
+            {
+                name: 'HTML5',
+                scale: '95%',
+            },
+            {
+                name: 'CSS3',
+                scale: '95%',
+            },
+            {
+                name: 'JavaScript',
+                scale: '85%',
+            },
+            {
+                name: 'React',
+                scale: '80%',
+            },
+        ],
+        backEnd: [
+            {
+                name: 'Java',
+                scale: '65%',
+            },
+            {
+                name: 'Springboot',
+                scale: '60%',
+            },
+            {
+                name: 'Python',
+                scale: '60%',
+            },
+        ],
+    },
     experience: {
         title: 'Experience',
         data: [

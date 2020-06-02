@@ -1,0 +1,22 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    @include breakpoint(medium) {
+        flex-direction: row;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        margin: 8px;
+        border-radius: 4px;
+        flex: 1;
+
+        @include breakpoint(medium) {
+            padding: 20px;
+        }
+    }
+}
