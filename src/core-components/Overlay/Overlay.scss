@@ -1,0 +1,175 @@
+@import '../IconCross/IconCross.scss';
+
+@keyframes std-anim-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@mixin std-anim-fade-in($duration) {
+    animation: std-anim-fade-in #{$duration}ms ease-in;
+}
+
+@keyframes animate-overlay-open {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.6);
+    }
+}
+
+@keyframes animate-overlay-close {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        height: 1px;
+        width: 1px;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@mixin vertical-scrollable {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.overlay-container {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #101010;
+
+    @include breakpoint(xlarge) {
+        height: 100vh;
+    }
+
+    z-index: 3;
+    animation: animate-overlay-open 200ms ease-in-out;
+
+    &--closing {
+        animation: animate-overlay-close 300ms ease-in-out;
+    }
+
+    &__head {
+        position: fixed;
+        top: 0;
+        left: 0;
+        @include breakpoint(small) {
+            padding: 10px 16px 16px 4px;
+        }
+        @include breakpoint(medium) {
+            padding: 24px 56px 16px 56px;
+        }
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        &--animated {
+            box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.12), 0 0 5px 0 rgba(0, 0, 0, 0.24);
+            @include breakpoint(small) {
+                padding-bottom: 8px;
+            }
+        }
+
+        @include std-anim-fade-in(300);
+    }
+
+    &__title-block {
+        width: 100%;
+        @include breakpoint(medium) {
+            width: calc(100% - 88px);
+        }
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title-cont {
+        position: relative;
+        width: 100%;
+        @include breakpoint(medium) {
+            max-width: 460px;
+        }
+        display: flex;
+        height: 100%;
+    }
+
+    &__title {
+        position: absolute;
+        left: 0;
+        @include breakpoint(small) {
+            bottom: -30px;
+            left: -32px;
+            transition: all 400ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+        }
+        @include breakpoint(medium) {
+            bottom: 0;
+        }
+
+        &--animated {
+            @include breakpoint(small) {
+                left: 0;
+                bottom: 12px;
+                font-size: 16px;
+            }
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__content {
+        padding-top: 78px;
+        @include breakpoint(small) {
+            padding-top: 100px;
+        }
+        height: 100%;
+        @include vertical-scrollable();
+
+        @include std-anim-fade-in(300);
+        &:after {
+            content: '';
+            display: block;
+            height: 0;
+            width: 0;
+            border-top: 115px solid transparent;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        height: 44px;
+        width: 44px;
+        right: 19px;
+        top: 27px;
+        z-index: 1;
+        @include breakpoint(small) {
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+        }
+        @include breakpoint(medium) {
+            left: 16px;
+            top: 24px;
+        }
+        @include breakpoint(xlarge) {
+            left: 54px;
+        }
+    }
+}
+
+.modal-open {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}

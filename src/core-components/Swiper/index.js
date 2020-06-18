@@ -38,8 +38,8 @@ const Swiper = ({
     noSwiping = false,
     noSwipingClass = 'swiper-no-swiping',
     loopedSlides = null,
-    rightArrow = <FontAwesomeIcon size="3x" icon="chevron-right" />,
-    leftArrow = <FontAwesomeIcon size="3x" icon="chevron-left" />,
+    rightArrow = <FontAwesomeIcon size="3x" icon="chevron-circle-right" inverse className="swiper-nav" />,
+    leftArrow = <FontAwesomeIcon size="3x" icon="chevron-circle-left" inverse className="swiper-nav" />,
     onNextClick = () => {},
     onPrevClick = () => {},
     children = null,
@@ -78,6 +78,7 @@ const Swiper = ({
                 el: paginationEl,
                 type: paginationType,
                 dynamicBullets: true,
+                clickable: true,
             },
             a11y: {
                 enabled: true,

@@ -5,9 +5,11 @@ import Logo from './partials/Logo';
 import NavMenu from './partials/NavMenu';
 import SocialMenu from './partials/SocialMenu';
 import Button from '../../core-components/Button';
+import Overlay from '../../core-components/Overlay';
 
 const Header = ({ logo, navMenu, socialLinks }) => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [displayOverlay, setDisplayOverlay] = useState(false);
 
     const handleScroll = () => {
         if (window.pageYOffset > 0) {
@@ -15,6 +17,10 @@ const Header = ({ logo, navMenu, socialLinks }) => {
         } else {
             setIsScrolled(false);
         }
+    };
+
+    const toggleOverlay = () => {
+        setDisplayOverlay(!displayOverlay);
     };
 
     useEffect(() => {
@@ -30,9 +36,14 @@ const Header = ({ logo, navMenu, socialLinks }) => {
             <Logo {...logo} />
             <NavMenu data={navMenu} />
             <SocialMenu data={socialLinks} />
-            <Button className="header__nav-menu-mobile">
+            <Button className="header__nav-menu-mobile" onClick={toggleOverlay}>
                 <FontAwesomeIcon icon={faBars} />
             </Button>
+            {displayOverlay && (
+                <Overlay withEscClose onClose={toggleOverlay}>
+                    hello
+                </Overlay>
+            )}
         </header>
     );
 };

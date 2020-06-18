@@ -1,3 +1,14 @@
+@keyframes animate-section {
+    from {
+        opacity: 0;
+        transform: translateY(48px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .section {
     padding: 50px 16px;
     display: flex;
@@ -33,5 +44,9 @@
                 width: 30%;
             }
         }
+    }
+
+    &.animate {
+        animation: animate-section 1s ease-in;
     }
 }

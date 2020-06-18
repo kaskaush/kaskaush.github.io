@@ -1,13 +1,21 @@
 .projects-section {
+    position: relative;
     .swiper-slide {
         width: 300px;
         min-height: 450px;
     }
-}
-.projects-wrapper {
-    @include breakpoint(small) {
-        padding: 50px 0;
+
+    .swiper-button-prev {
+        left: 18px;
     }
+
+    .swiper-button-next {
+        right: 36px;
+    }
+}
+
+.projects-wrapper {
+    padding: 50px 0;
 }
 @import '../../core-components/Swiper/Swiper.scss';
 @import '../../core-components/Pill/Pill.scss';

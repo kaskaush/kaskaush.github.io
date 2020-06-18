@@ -7,8 +7,9 @@ import {
     faDatabase,
     faProjectDiagram,
     faServer,
-    faChevronLeft,
-    faChevronRight,
+    faChevronCircleLeft,
+    faChevronCircleRight,
+    faTimes,
 } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -21,7 +22,17 @@ import ProjectsSection from './components/ProjectsSection';
 const App = () => {
     const globalState = useContext(store);
     const { header, hero, skills, experience, projects, footer } = globalState.state;
-    library.add(faUsers, faPoll, faPeopleArrows, faDatabase, faProjectDiagram, faServer, faChevronLeft, faChevronRight);
+    library.add(
+        faUsers,
+        faPoll,
+        faPeopleArrows,
+        faDatabase,
+        faProjectDiagram,
+        faServer,
+        faChevronCircleLeft,
+        faChevronCircleRight,
+        faTimes
+    );
     return (
         <>
             <Header {...header} />
