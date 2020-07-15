@@ -79,7 +79,7 @@ const context = {
             {
                 company: 'byjus',
                 image: {
-                    src: '/logos/byjus.svg',
+                    src: 'logos/byjus.svg',
                     alt: 'Byjus',
                 },
                 totalExp: '1 year',
@@ -93,7 +93,7 @@ const context = {
             {
                 company: 'infosys',
                 image: {
-                    src: '/logos/infosys.svg',
+                    src: 'logos/infosys.svg',
                     alt: 'Infosys',
                 },
                 totalExp: '2 years 8 months',
@@ -111,7 +111,7 @@ const context = {
             {
                 company: 'publicis sapient',
                 image: {
-                    src: '/logos/ps.svg',
+                    src: 'logos/ps.svg',
                     alt: 'Publicis Sapient',
                 },
                 totalExp: '2 years',
