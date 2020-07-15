@@ -19,10 +19,6 @@ const context = {
         ],
         socialLinks: [
             {
-                type: 'email',
-                url: 'mailto:kaushik.kasibhatla@gmail.com',
-            },
-            {
                 type: 'linkedIn',
                 url: 'https://in.linkedin.com/in/kaushik-kasibhatla',
             },
