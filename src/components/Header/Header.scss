@@ -58,11 +58,8 @@
             margin: 0 25px;
         }
         &__social-links-wrapper {
-            display: none;
-
-            @include breakpoint(medium) {
-                display: flex;
-            }
+            display: flex;
+            margin-left: auto;
         }
         &__social-links {
             display: inline-flex;

@@ -34,11 +34,11 @@ const Header = ({ logo, navMenu, socialLinks }) => {
     return (
         <header className={`header header-work ${isScrolled ? 'scroll-active' : ''}`}>
             <Logo {...logo} />
-            <NavMenu data={navMenu} />
+            {/*  <NavMenu data={navMenu} /> */}
             <SocialMenu data={socialLinks} />
-            <Button className="header__nav-menu-mobile" onClick={toggleOverlay}>
+            {/* <Button className="header__nav-menu-mobile" onClick={toggleOverlay}>
                 <FontAwesomeIcon icon={faBars} />
-            </Button>
+            </Button> */}
             {displayOverlay && (
                 <Overlay withEscClose onClose={toggleOverlay}>
                     hello

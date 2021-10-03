@@ -16,3 +16,14 @@
 @import '../components/ExperienceSection/ExperienceSection.scss';
 @import '../components/ProjectsSection/ProjectsSection.scss';
 @import '../components/Footer/Footer.scss';
+
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+    padding: 0 0 32px 0;
+}

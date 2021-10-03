@@ -4,7 +4,7 @@ import ProgressBar from '../../core-components/ProgressBar';
 
 const SkillsSection = ({ title, frontEnd, backEnd }) => {
     return (
-        <Section title={title}>
+        <Section title={title} id="skills-section">
             <div className="skills-section">
                 <div className="skills-section__card">
                     {frontEnd &&

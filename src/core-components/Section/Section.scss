@@ -13,6 +13,7 @@
     padding: 50px 16px;
     display: flex;
     flex-direction: column;
+    scroll-margin-top: 50px;
 
     @include breakpoint(large) {
         padding: 50px 50px;

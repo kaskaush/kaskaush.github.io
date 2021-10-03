@@ -1,10 +1,13 @@
 @keyframes scroll-down {
-    from {
+    0% {
         opacity: 0;
         transform: translateY(-40%);
     }
-    to {
+    50% {
         opacity: 1;
+    }
+    100% {
+        opacity: 0;
         transform: translateY(0);
     }
 }
@@ -14,7 +17,7 @@
 
     &__image {
         position: relative;
-        background-image: url('https://kaskaush.github.io/my-portfolio/hero-min.jpg');
+        background-image: url('https://kaskaush.github.io/my-portfolio/markus-spiske-hvSr_CVecVI-unsplash.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -48,7 +51,6 @@
     }
 
     &__title {
-        letter-spacing: 2px;
         font-size: 30px;
         font-weight: 500;
         color: $white;

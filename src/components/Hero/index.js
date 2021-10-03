@@ -4,6 +4,10 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Button from '../../core-components/Button';
 
 const Hero = ({ title, description }) => {
+    const handleNavClick = () => {
+        document.getElementById('skills-section').scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div className="hero">
             <div className="hero-mask"></div>
@@ -12,7 +16,7 @@ const Hero = ({ title, description }) => {
                 <h1 className="hero__title">{title}</h1>
                 <p className="hero__description">{description}</p>
             </div>
-            <Button className="hero__scroll-btn">
+            <Button className="hero__scroll-btn" onClick={handleNavClick}>
                 <FontAwesomeIcon icon={faChevronDown} />
             </Button>
         </div>

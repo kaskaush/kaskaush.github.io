@@ -10,6 +10,12 @@ import {
     faChevronCircleLeft,
     faChevronCircleRight,
     faTimes,
+    faHotel,
+    faWater,
+    faDesktop,
+    faVideo,
+    faCapsules,
+    faMicrochip,
 } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -31,7 +37,13 @@ const App = () => {
         faServer,
         faChevronCircleLeft,
         faChevronCircleRight,
-        faTimes
+        faTimes,
+        faHotel,
+        faWater,
+        faDesktop,
+        faVideo,
+        faCapsules,
+        faMicrochip
     );
     return (
         <>
