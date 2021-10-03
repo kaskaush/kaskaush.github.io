@@ -243,6 +243,21 @@ const context = {
                 'Designed and developed a resource provisioning application from scratch that acts as a central service for product users to manage product provisioning and client requests.',
             technologies: ['Java', 'Springboot', 'ReactJS', 'NodeJS', 'Docker', 'Kubernetes'],
         },
+        {
+            iconName: 'atom',
+            title: 'Rickcyclopedia',
+            organization: 'Open Source',
+            description: 'Designed and developed a character database for Rick and Morty using the Rick and Morty API.',
+            technologies: ['ReactJS', 'Github Pages'],
+        },
+        {
+            iconName: 'cubes',
+            title: 'FE Essential Utils',
+            organization: 'Open Source',
+            description:
+                'A small utility package that contains necessary tools to build front-end applications. Contains tools ranging from DOM Manipulation to Cookie management.',
+            technologies: ['JavaScript', 'NPM'],
+        },
     ],
     footer: {
         copyRight: {

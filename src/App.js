@@ -16,6 +16,8 @@ import {
     faVideo,
     faCapsules,
     faMicrochip,
+    faAtom,
+    faCubes,
 } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -43,7 +45,9 @@ const App = () => {
         faDesktop,
         faVideo,
         faCapsules,
-        faMicrochip
+        faMicrochip,
+        faAtom,
+        faCubes
     );
     return (
         <>

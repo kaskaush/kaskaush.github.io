@@ -33,6 +33,9 @@ const CustomSwiper = ({ children }) => {
             slidesPerView="auto"
             centeredSlides
             className="custom-swiper"
+            mousewheel={{
+                releaseOnEdges: true,
+            }}
         >
             {children}
         </Swiper>
