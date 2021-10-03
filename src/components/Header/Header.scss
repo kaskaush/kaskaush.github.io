@@ -5,7 +5,7 @@
 .header {
     display: flex;
     flex-direction: row;
-    padding: 20px 30px;
+    padding: 20px 4px;
     align-items: center;
     position: fixed;
     top: 0;
@@ -14,12 +14,27 @@
     z-index: 3;
     transition: all 0.25s linear;
 
+    @include breakpoint(medium) {
+        padding: 20px 30px;
+    }
+
     .nav-item {
         color: $white;
 
         &::before {
             background-color: $white;
         }
+    }
+
+    &__profile-wrapper {
+        width: 64px;
+        height: 64px;
+        margin-right: 1rem;
+    }
+
+    &__profile-image {
+        width: 100%;
+        border-radius: 50%;
     }
 
     &__logo {
@@ -38,6 +53,9 @@
 
     &-work {
         &__logo-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
             @include breakpoint(small) {
                 flex: 1;
             }
@@ -84,10 +102,20 @@
 
     &.scroll-active {
         background: $white;
-        padding: 15px 30px;
+        padding: 15px 4px;
         -webkit-box-shadow: 0px 10px 15px -4px rgba(0, 0, 0, 0.45);
         -moz-box-shadow: 0px 10px 15px -4px rgba(0, 0, 0, 0.45);
         box-shadow: 0px 10px 15px -4px rgba(0, 0, 0, 0.45);
+
+        @include breakpoint(medium) {
+            padding: 15px 30px;
+        }
+
+        .header__profile-wrapper {
+            width: 48px;
+            height: 48px;
+            margin-right: 1rem;
+        }
 
         .header__logo {
             font-size: 20px;
