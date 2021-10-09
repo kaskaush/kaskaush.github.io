@@ -16,7 +16,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-ReactGA.initialize('G-3879JP85WC');
+ReactGA.initialize('UA-209775934-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 // If you want your app to work offline and load faster, you can change
