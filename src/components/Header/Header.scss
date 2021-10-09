@@ -27,9 +27,14 @@
     }
 
     &__profile-wrapper {
-        width: 64px;
-        height: 64px;
+        width: 48px;
+        height: 48px;
         margin-right: 1rem;
+
+        @include breakpoint(medium) {
+            width: 64px;
+            height: 64px;
+        }
     }
 
     &__profile-image {
@@ -40,14 +45,15 @@
     &__logo {
         display: flex;
         flex-direction: column;
-        font-size: 24px;
+        font-size: 1.3125rem;
         font-weight: 900;
         text-decoration: none;
         color: $white;
 
         @include breakpoint(medium) {
-            font-size: 28px;
+            font-size: 1.75rem;
             margin-right: 50px;
+            font-size: 1.5rem;
         }
     }
 
@@ -92,7 +98,7 @@
         display: block;
         background: transparent;
         border: 0;
-        font-size: 24px;
+        font-size: 1.5rem;
         color: $white;
 
         @include breakpoint(medium) {
@@ -118,7 +124,7 @@
         }
 
         .header__logo {
-            font-size: 20px;
+            font-size: 1.25rem;
             color: $grey-10;
         }
 

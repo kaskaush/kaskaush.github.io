@@ -17,6 +17,20 @@
 @import '../components/ProjectsSection/ProjectsSection.scss';
 @import '../components/Footer/Footer.scss';
 
+@keyframes scroll-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+}
+
 .swiper-container {
     margin: 0 auto;
     position: relative;
@@ -26,4 +40,33 @@
     /* Fix of Webkit flickering */
     z-index: 1;
     padding: 0 0 32px 0;
+}
+
+.scroll-to-top {
+    @include breakpoint(small) {
+        bottom: 20px;
+        right: 20px;
+    }
+    height: 56px;
+    padding: 0;
+    position: fixed;
+    bottom: 26px;
+    right: 32px;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.5s ease;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    border-radius: 6px;
+
+    &--show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scroll-to-top-icon {
+    color: #fff;
+    animation: scroll-up 1.5s infinite;
 }

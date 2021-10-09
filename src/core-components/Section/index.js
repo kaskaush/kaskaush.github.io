@@ -12,7 +12,7 @@ const Section = ({ title, children, inverse, _class, id }) => {
                 className={`section ${inverse ? 'inverse' : ''} ${_class || ''} ${isIntersected ? 'animate' : ''}`}
                 id={id}
             >
-                <h3 className="section__title">{title}</h3>
+                <h2 className="section__title">{title}</h2>
                 {children}
             </div>
         </IntersectionObserver>

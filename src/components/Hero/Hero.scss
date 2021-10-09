@@ -14,14 +14,20 @@
 
 .hero {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 
     &__image {
-        position: relative;
-        background-image: url('https://kaskaush.github.io/my-portfolio/markus-spiske-hvSr_CVecVI-unsplash.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
         background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     &-mask {
@@ -51,34 +57,33 @@
     }
 
     &__title {
-        font-size: 30px;
-        font-weight: 500;
+        font-weight: 300;
+        font-size: 1.875rem;
         color: $white;
         margin-bottom: 12px;
         line-height: 1.67;
 
         @include breakpoint(medium) {
-            font-size: 60px;
+            font-size: 3.75rem;
         }
     }
 
     &__description {
-        font-size: 20px;
+        font-size: 1.25rem;
         color: $white;
         line-height: 1.67;
+        font-weight: 200;
 
         @include breakpoint(medium) {
-            font-size: 24px;
+            font-size: 1.5rem;
         }
     }
 
     &__scroll-btn {
-        font-size: 40px;
+        font-size: 2.5rem;
         color: $white;
         position: absolute;
         bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
         z-index: 2;
         animation: scroll-down 2s infinite;
     }

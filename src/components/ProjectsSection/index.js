@@ -12,8 +12,8 @@ const ProjectsSection = ({ projects }) => {
                     {projects &&
                         projects.map((item) => {
                             return (
-                                <SwiperSlide>
-                                    <ProjectCard key={item.title} _class="swiper-slide" {...item} />
+                                <SwiperSlide key={item.title}>
+                                    <ProjectCard _class="swiper-slide" {...item} />
                                 </SwiperSlide>
                             );
                         })}

@@ -42,23 +42,27 @@ const context = {
         title: 'Skills',
         frontEnd: [
             {
-                name: 'HTML5',
-                scale: '95%',
-            },
-            {
-                name: 'CSS3',
-                scale: '95%',
+                name: 'React',
+                scale: '80%',
             },
             {
                 name: 'JavaScript',
                 scale: '85%',
             },
             {
-                name: 'React',
-                scale: '80%',
+                name: 'CSS3',
+                scale: '95%',
+            },
+            {
+                name: 'HTML5',
+                scale: '95%',
             },
         ],
         backEnd: [
+            {
+                name: 'NodeJS',
+                scale: '70%',
+            },
             {
                 name: 'Java',
                 scale: '65%',
@@ -66,10 +70,6 @@ const context = {
             {
                 name: 'Springboot',
                 scale: '60%',
-            },
-            {
-                name: 'NodeJS',
-                scale: '70%',
             },
             {
                 name: 'Docker',
@@ -261,7 +261,7 @@ const context = {
     ],
     footer: {
         copyRight: {
-            text: 'Copyright © 2020 Kaushik Kasibhatla. All rights reserved.',
+            text: 'Copyright © 2021 Kaushik Kasibhatla. All rights reserved.',
         },
     },
 };

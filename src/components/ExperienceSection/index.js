@@ -9,7 +9,7 @@ const ExperienceSection = ({ title, data }) => {
                 {data &&
                     data.map((item) => {
                         return (
-                            <ShowcaseCard key={item.company} image={item.image}>
+                            <ShowcaseCard key={item.company} company={item.company} image={item.image}>
                                 <div className="experience-section__content">
                                     <em className="experience-section__total-exp">{item.totalExp}</em>
                                     {item.roles &&
