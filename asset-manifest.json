@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b8787904.chunk.css",
-    "main.js": "/static/js/main.0df3b128.chunk.js",
+    "main.js": "/static/js/main.cd137bf8.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.75b893ca.js",
     "static/css/2.c47b4605.chunk.css": "/static/css/2.c47b4605.chunk.css",
-    "static/js/2.1a4218bf.chunk.js": "/static/js/2.1a4218bf.chunk.js",
+    "static/js/2.c0e05759.chunk.js": "/static/js/2.c0e05759.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.1a4218bf.chunk.js.LICENSE.txt": "/static/js/2.1a4218bf.chunk.js.LICENSE.txt",
+    "static/js/2.c0e05759.chunk.js.LICENSE.txt": "/static/js/2.c0e05759.chunk.js.LICENSE.txt",
     "static/media/byjus.c7827ac1.svg": "/static/media/byjus.c7827ac1.svg",
     "static/media/infosys.8a13a476.svg": "/static/media/infosys.8a13a476.svg",
     "static/media/markus-spiske-hvSr_CVecVI-unsplash.7a861a25.jpeg": "/static/media/markus-spiske-hvSr_CVecVI-unsplash.7a861a25.jpeg",
@@ -17,8 +17,8 @@
   "entrypoints": [
     "static/js/runtime-main.75b893ca.js",
     "static/css/2.c47b4605.chunk.css",
-    "static/js/2.1a4218bf.chunk.js",
+    "static/js/2.c0e05759.chunk.js",
     "static/css/main.b8787904.chunk.css",
-    "static/js/main.0df3b128.chunk.js"
+    "static/js/main.cd137bf8.chunk.js"
   ]
 }
