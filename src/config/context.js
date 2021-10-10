@@ -90,7 +90,8 @@ const context = {
                     src: 'logos/byjus.svg',
                     alt: 'Byjus',
                 },
-                totalExp: '1 year',
+                start: '27/01/2015',
+                end: '15/12/2015',
                 roles: [
                     {
                         role: 'Associate Software Developer',
@@ -104,7 +105,8 @@ const context = {
                     src: 'logos/infosys.svg',
                     alt: 'Infosys',
                 },
-                totalExp: '2 years 8 months',
+                start: '21/12/2015',
+                end: '16/07/2018',
                 roles: [
                     {
                         role: 'Senior Systems Engineer',
@@ -122,7 +124,8 @@ const context = {
                     src: 'logos/ps.svg',
                     alt: 'Publicis Sapient',
                 },
-                totalExp: '2 years 5 months',
+                start: '18/07/2018',
+                end: '15/01/2021',
                 roles: [
                     {
                         role: 'Senior Associate',
@@ -136,7 +139,8 @@ const context = {
                     src: 'logos/oracle.svg',
                     alt: 'Oracle',
                 },
-                totalExp: '9 months',
+                start: '18/01/2021',
+                end: '',
                 roles: [
                     {
                         role: 'Senior Software Engineer',
@@ -148,84 +152,12 @@ const context = {
     },
     projects: [
         {
-            iconName: 'users',
-            title: "Byju's Class Scheduler",
-            organization: "Byju's",
+            iconName: 'microchip',
+            title: 'OA Provisioner',
+            organization: 'Oracle',
             description:
-                'An application to manage student information, schedules and marks across the organization. Developed APIs to retrieve student data and designed UI/UX across the application.',
-            technologies: ['ASP.NET Webforms', 'JavaScript', 'Bootstrap'],
-        },
-        {
-            iconName: 'poll',
-            title: "Byju's DMP",
-            organization: "Byju's",
-            description:
-                'Designed several landing pages for campaigns under Digital Marketing Platform that gained a revenue boost of 30% and inbound traffic.',
-            technologies: ['JavaScript', 'HTML5', 'CSS3', 'Bootstrap'],
-        },
-        {
-            iconName: 'people-arrows',
-            title: 'Talent Mapping Utility',
-            organization: 'Infosys',
-            description:
-                'A utility for Talent Managers across the organization to identify and map required talent for a project. Users can filter talent based on tech stack and help Project Managers finding the right fit. Developed APIs to retrieve talent data and designed UI/UX across the application.',
-            technologies: ['Java', 'Springboot', 'AngularJS'],
-        },
-        {
-            iconName: 'database',
-            title: 'DB Cluster Monitor',
-            organization: 'Huawei',
-            description:
-                'A web application to monitor real time stats of a database cluster with nodes ranging from 3-25 nodes using informative graphs. Worked on micro-service architecture and built REST APIs that retrieve vital information from each node in a cluster. Also worked on UI/UX across the application.',
-            technologies: ['Java', 'Springboot', 'Shell', 'Python', 'AngularJS'],
-        },
-        {
-            iconName: 'project-diagram',
-            title: 'DB Cluster Configurator',
-            organization: 'Huawei',
-            description:
-                'An application to generate and deploy a database cluster for the given nodes. Engineers can create/retrieve/update/delete nodes in a cluster and deploy it immediately on to a network. This application can also be used to visualize a cluster and load balance it. Worked on core data model, load balancing algorithm and visualization.',
-            technologies: ['Java', 'Swing'],
-        },
-        {
-            iconName: 'server',
-            organization: 'Huawei',
-            title: 'Cluster Deployment Orchestrator',
-            description:
-                'A POC to deploy a database cluster on given nodes and perform a compartive analysis on Ansible and Puppet.',
-            technologies: ['Python', 'Ansible', 'Puppet'],
-        },
-        {
-            iconName: 'capsules',
-            organization: 'Merck',
-            title: 'Drug Manufacturing IoT',
-            description:
-                'Designed and built an admin portal to connect to and monitor drug manufacturing machines through IoT. Users can manage the machines remotely from anywhere in the world.',
-            technologies: ['Java', 'Springboot', 'ReactJS'],
-        },
-        {
-            iconName: 'hotel',
-            title: 'Tech Stack Migration',
-            organization: 'MGM Resorts International',
-            description:
-                'Handle tech stack migration from AngularJS to React for MGM Resorts International - official booking site for resorts/hotels/restaurants/shows.',
-            technologies: ['AngularJS', 'ReactJS', 'NodeJS', 'Adobe AEM'],
-        },
-        {
-            iconName: 'water',
-            title: 'MGM Cabanas',
-            organization: 'MGM Resorts International',
-            description:
-                'Design and build front-end for MGM Cabanas booking site from scratch that generated a revenue increase by 22%. Worked on webpack and lighthouse optimizations for the same.',
-            technologies: ['ReactJS', 'NodeJS', 'Adobe AEM'],
-        },
-        {
-            iconName: 'desktop',
-            title: 'MGM Admin UI',
-            organization: 'MGM Resorts International',
-            description:
-                'Worked on an inventory management portal that is used to configure / manage rooms, restaurants, shows inventory. Used micro-frontends to communicate with various modules within the application.',
-            technologies: ['ReactJS', 'NodeJS', 'Micro-Frontend', 'Adobe AEM'],
+                'Designed and developed a resource provisioning application from scratch that acts as a central service for product users to manage product provisioning and client requests.',
+            technologies: ['Java', 'Springboot', 'ReactJS', 'NodeJS', 'Docker', 'Kubernetes'],
         },
         {
             iconName: 'video',
@@ -236,12 +168,85 @@ const context = {
             technologies: ['ReactJS', 'NodeJS', 'NextJS'],
         },
         {
-            iconName: 'microchip',
-            title: 'OA Provisioner',
-            organization: 'Oracle',
+            iconName: 'desktop',
+            title: 'MGM Admin UI',
+            organization: 'MGM Resorts International',
             description:
-                'Designed and developed a resource provisioning application from scratch that acts as a central service for product users to manage product provisioning and client requests.',
-            technologies: ['Java', 'Springboot', 'ReactJS', 'NodeJS', 'Docker', 'Kubernetes'],
+                'Worked on an inventory management portal that is used to configure / manage rooms, restaurants, shows inventory. Used micro-frontends to communicate with various modules within the application.',
+            technologies: ['ReactJS', 'NodeJS', 'Micro-Frontend', 'Adobe AEM'],
+        },
+        {
+            iconName: 'water',
+            title: 'MGM Cabanas',
+            organization: 'MGM Resorts International',
+            description:
+                'Design and build front-end for MGM Cabanas booking site from scratch that generated a revenue increase by 22%. Worked on webpack and lighthouse optimizations for the same.',
+            technologies: ['ReactJS', 'NodeJS', 'Adobe AEM'],
+        },
+        {
+            iconName: 'hotel',
+            title: 'Tech Stack Migration',
+            organization: 'MGM Resorts International',
+            description:
+                'Handle tech stack migration from AngularJS to React for MGM Resorts International - official booking site for resorts/hotels/restaurants/shows.',
+            technologies: ['AngularJS', 'ReactJS', 'NodeJS', 'Adobe AEM'],
+        },
+        {
+            iconName: 'capsules',
+            organization: 'Merck',
+            title: 'Drug Manufacturing IoT',
+            description:
+                'Designed and built an admin portal to connect to and monitor drug manufacturing machines through IoT. Users can manage the machines remotely from anywhere in the world.',
+            technologies: ['Java', 'Springboot', 'ReactJS'],
+        },
+        {
+            iconName: 'server',
+            organization: 'Huawei',
+            title: 'Cluster Deployment Orchestrator',
+            description:
+                'A POC to deploy a database cluster on given nodes and perform a compartive analysis on Ansible and Puppet.',
+            technologies: ['Python', 'Ansible', 'Puppet'],
+        },
+        {
+            iconName: 'project-diagram',
+            title: 'DB Cluster Configurator',
+            organization: 'Huawei',
+            description:
+                'An application to generate and deploy a database cluster for the given nodes. Engineers can create/retrieve/update/delete nodes in a cluster and deploy it immediately on to a network. This application can also be used to visualize a cluster and load balance it. Worked on core data model, load balancing algorithm and visualization.',
+            technologies: ['Java', 'Swing'],
+        },
+        {
+            iconName: 'database',
+            title: 'DB Cluster Monitor',
+            organization: 'Huawei',
+            description:
+                'A web application to monitor real time stats of a database cluster with nodes ranging from 3-25 nodes using informative graphs. Worked on micro-service architecture and built REST APIs that retrieve vital information from each node in a cluster. Also worked on UI/UX across the application.',
+            technologies: ['Java', 'Springboot', 'Shell', 'Python', 'AngularJS'],
+        },
+        {
+            iconName: 'people-arrows',
+            title: 'Talent Mapping Utility',
+            organization: 'Infosys',
+            description:
+                'A utility for Talent Managers across the organization to identify and map required talent for a project. Users can filter talent based on tech stack and help Project Managers finding the right fit. Developed APIs to retrieve talent data and designed UI/UX across the application.',
+            technologies: ['Java', 'Springboot', 'AngularJS'],
+        },
+        {
+            iconName: 'poll',
+            title: "Byju's DMP",
+            organization: "Byju's",
+            description:
+                'Designed several landing pages for campaigns under Digital Marketing Platform that gained a revenue boost of 30% and inbound traffic.',
+            technologies: ['JavaScript', 'HTML5', 'CSS3', 'Bootstrap'],
+        },
+
+        {
+            iconName: 'users',
+            title: "Byju's Class Scheduler",
+            organization: "Byju's",
+            description:
+                'An application to manage student information, schedules and marks across the organization. Developed APIs to retrieve student data and designed UI/UX across the application.',
+            technologies: ['ASP.NET Webforms', 'JavaScript', 'Bootstrap'],
         },
         {
             iconName: 'atom',
