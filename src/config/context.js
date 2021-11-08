@@ -46,6 +46,10 @@ const context = {
                 scale: '80%',
             },
             {
+                name: 'NextJS',
+                scale: '70%',
+            },
+            {
                 name: 'JavaScript',
                 scale: '85%',
             },

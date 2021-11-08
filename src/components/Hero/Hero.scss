@@ -48,11 +48,19 @@
         z-index: 2;
         text-align: center;
         width: 80%;
+        background: rgba(255, 255, 255, 0.25);
+        padding: 42px 38px 62px 38px;
+        border-radius: 6px;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 10px;
 
         @include breakpoint(medium) {
             bottom: auto;
             top: 50%;
             width: auto;
+            padding: 42px 64px 62px 64px;
         }
     }
 
