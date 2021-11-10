@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6123927b.chunk.css",
-    "main.js": "/static/js/main.3e40536d.chunk.js",
+    "main.css": "/static/css/main.b02c1316.chunk.css",
+    "main.js": "/static/js/main.8c3534a1.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.75b893ca.js",
     "static/css/2.c47b4605.chunk.css": "/static/css/2.c47b4605.chunk.css",
     "static/js/2.c0e05759.chunk.js": "/static/js/2.c0e05759.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/2.c0e05759.chunk.js.LICENSE.txt": "/static/js/2.c0e05759.chunk.js.LICENSE.txt",
     "static/media/byjus.c7827ac1.svg": "/static/media/byjus.c7827ac1.svg",
     "static/media/infosys.8a13a476.svg": "/static/media/infosys.8a13a476.svg",
-    "static/media/markus-spiske-hvSr_CVecVI-unsplash.7a861a25.jpeg": "/static/media/markus-spiske-hvSr_CVecVI-unsplash.7a861a25.jpeg",
+    "static/media/markus-spiske-hvSr_CVecVI-unsplash.e3727d47.jpeg": "/static/media/markus-spiske-hvSr_CVecVI-unsplash.e3727d47.jpeg",
     "static/media/oracle.186a79a7.svg": "/static/media/oracle.186a79a7.svg",
     "static/media/profile-pic.2e42d163.png": "/static/media/profile-pic.2e42d163.png",
     "static/media/ps.7694e4a5.svg": "/static/media/ps.7694e4a5.svg"
@@ -18,7 +18,7 @@
     "static/js/runtime-main.75b893ca.js",
     "static/css/2.c47b4605.chunk.css",
     "static/js/2.c0e05759.chunk.js",
-    "static/css/main.6123927b.chunk.css",
-    "static/js/main.3e40536d.chunk.js"
+    "static/css/main.b02c1316.chunk.css",
+    "static/js/main.8c3534a1.chunk.js"
   ]
 }
