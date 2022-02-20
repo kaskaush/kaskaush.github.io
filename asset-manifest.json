@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b02c1316.chunk.css",
-    "main.js": "/static/js/main.8c3534a1.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.75b893ca.js",
-    "static/css/2.c47b4605.chunk.css": "/static/css/2.c47b4605.chunk.css",
-    "static/js/2.c0e05759.chunk.js": "/static/js/2.c0e05759.chunk.js",
+    "main.css": "/static/css/main.bc80d79d.css",
+    "main.js": "/static/js/main.d57b9034.js",
+    "static/media/markus-spiske-hvSr_CVecVI-unsplash.jpeg": "/static/media/markus-spiske-hvSr_CVecVI-unsplash.e3727d47662421cda138.jpeg",
+    "static/media/profile-pic.png": "/static/media/profile-pic.2e42d16314b2ce53c52e.png",
+    "static/media/byjus.svg": "/static/media/byjus.b2659ef64d5a695ceaac1bf61bd698bc.svg",
+    "static/media/infosys.svg": "/static/media/infosys.262039cf8649cac13be15f6dc4a7c17a.svg",
+    "static/media/ps.svg": "/static/media/ps.05e7bdf72ab89df4858be18f7cf96f0f.svg",
+    "static/media/spring.svg": "/static/media/spring.8961d2b4bb9ca712f93ff6e190e73bf3.svg",
+    "static/media/kubernetes.svg": "/static/media/kubernetes.98bbc6a595e48652d2d0426dd854e7bb.svg",
+    "static/media/reactjs.svg": "/static/media/reactjs.57a71da916289f16ea11ce827f0b810e.svg",
+    "static/media/docker.svg": "/static/media/docker.459b8c3694d76785b113587280fd6074.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.ca7d509723af4bcecb79debeba809532.svg",
+    "static/media/java.svg": "/static/media/java.6cf9b95610c3b03023e9535e590945e3.svg",
+    "static/media/nestjs.svg": "/static/media/nestjs.836a30e42083d1a59971c984739b3d93.svg",
+    "static/media/js.svg": "/static/media/js.f719efab5b799ddc35b5055935a3cedd.svg",
     "index.html": "/index.html",
-    "static/js/2.c0e05759.chunk.js.LICENSE.txt": "/static/js/2.c0e05759.chunk.js.LICENSE.txt",
-    "static/media/byjus.c7827ac1.svg": "/static/media/byjus.c7827ac1.svg",
-    "static/media/infosys.8a13a476.svg": "/static/media/infosys.8a13a476.svg",
-    "static/media/markus-spiske-hvSr_CVecVI-unsplash.e3727d47.jpeg": "/static/media/markus-spiske-hvSr_CVecVI-unsplash.e3727d47.jpeg",
-    "static/media/oracle.186a79a7.svg": "/static/media/oracle.186a79a7.svg",
-    "static/media/profile-pic.2e42d163.png": "/static/media/profile-pic.2e42d163.png",
-    "static/media/ps.7694e4a5.svg": "/static/media/ps.7694e4a5.svg"
+    "static/media/oracle.svg": "/static/media/oracle.186a79a7011fe20887073428897aa9c0.svg",
+    "static/media/css.svg": "/static/media/css.6b6f52e770d91259d3a93d7438a09d7c.svg",
+    "static/media/nextjs.svg": "/static/media/nextjs.8f1ec5331a56f083f05557fe2d8b64c8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.75b893ca.js",
-    "static/css/2.c47b4605.chunk.css",
-    "static/js/2.c0e05759.chunk.js",
-    "static/css/main.b02c1316.chunk.css",
-    "static/js/main.8c3534a1.chunk.js"
+    "static/css/main.bc80d79d.css",
+    "static/js/main.d57b9034.js"
   ]
 }
