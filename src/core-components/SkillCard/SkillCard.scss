@@ -1,0 +1,25 @@
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 6px;
+    gap: 12px;
+    transition: all 250ms;
+
+    &:hover {
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        transition: all 250ms;
+    }
+
+    &__title-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    &__image {
+        width: 6rem;
+        height: 6rem;
+    }
+}

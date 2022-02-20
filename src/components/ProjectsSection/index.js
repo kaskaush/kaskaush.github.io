@@ -6,7 +6,7 @@ import { SwiperSlide } from 'swiper/react';
 
 const ProjectsSection = ({ projects }) => {
     return (
-        <Section title={'Projects'} _class="projects-wrapper">
+        <Section title={'Projects'} _class="projects-wrapper" id="projects">
             <div className="projects-section">
                 <CustomSwiper>
                     {projects &&

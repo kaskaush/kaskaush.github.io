@@ -5,7 +5,7 @@ import { getDateDifference } from '../../utility/timeUtils';
 
 const ExperienceSection = ({ title, data }) => {
     return (
-        <Section title={title} inverse>
+        <Section title={title} inverse id="experience">
             <div className="experience-section">
                 {data &&
                     data.map((item) => {

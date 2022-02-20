@@ -3,6 +3,10 @@ import Logo from './partials/Logo';
 import SocialMenu from './partials/SocialMenu';
 import Overlay from '../../core-components/Overlay';
 import throttle from 'lodash.throttle';
+import NavMenu from './partials/NavMenu';
+import Button from '../../core-components/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Header = ({ logo, navMenu, socialLinks }) => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -31,14 +35,14 @@ const Header = ({ logo, navMenu, socialLinks }) => {
     return (
         <header className={`header header-work ${isScrolled ? 'scroll-active' : ''}`}>
             <Logo {...logo} />
-            {/*  <NavMenu data={navMenu} /> */}
+            <NavMenu data={navMenu} />
             <SocialMenu data={socialLinks} />
             {/* <Button className="header__nav-menu-mobile" onClick={toggleOverlay}>
                 <FontAwesomeIcon icon={faBars} />
             </Button> */}
             {displayOverlay && (
                 <Overlay withEscClose onClose={toggleOverlay}>
-                    hello
+                    <NavMenu data={navMenu} />
                 </Overlay>
             )}
         </header>

@@ -59,6 +59,8 @@
     background: rgba(0, 0, 0, 0.5);
     padding: 16px;
     border-radius: 6px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 
     &--show {
         opacity: 1;

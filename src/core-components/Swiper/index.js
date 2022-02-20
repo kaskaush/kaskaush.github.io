@@ -4,11 +4,9 @@ import { Swiper } from 'swiper/react';
 // import Swiper core and required modules
 import SwiperCore, { EffectCoverflow, Pagination, A11y } from 'swiper';
 
-import 'swiper/swiper-bundle.min.css';
-import 'swiper/swiper.min.css';
-// modules styles
-import 'swiper/components/navigation/navigation.min.css';
-import 'swiper/components/pagination/pagination.min.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 // install Swiper modules
 SwiperCore.use([EffectCoverflow, Pagination, A11y]);

@@ -6,6 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { StateProvider } from './config/store';
 import ReactGA from 'react-ga';
+import smoothscroll from 'smoothscroll-polyfill';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
 
 ReactGA.initialize('UA-209775934-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
+smoothscroll.polyfill();
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

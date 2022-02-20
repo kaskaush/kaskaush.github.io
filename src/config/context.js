@@ -7,14 +7,24 @@ const context = {
         },
         navMenu: [
             {
-                label: 'Work',
-                ariaLabel: 'Work',
-                url: '/work',
+                label: 'Home',
+                ariaLabel: 'home',
+                url: 'home',
             },
             {
-                label: 'Play',
-                ariaLabel: 'Play',
-                url: '/play',
+                label: 'Skills',
+                ariaLabel: 'skills',
+                url: 'skills',
+            },
+            {
+                label: 'Experience',
+                ariaLabel: 'experience',
+                url: 'experience',
+            },
+            {
+                label: 'Projects',
+                ariaLabel: 'projects',
+                url: 'projects',
             },
         ],
         socialLinks: [
@@ -31,7 +41,7 @@ const context = {
     hero: {
         title: 'Hello World!',
         description:
-            "I'm a full-stack web developer focused on designing and developing efficient, scalabe and performant applications.",
+            "<p>I'm <span style='color:#f79a3c'>Kaushik Kasibhatla</span>, a full-stack web developer with 7+ years of experience, focused on designing and developing efficient, scalabe and performant applications.</p>",
     },
     about: {
         title: 'About',
@@ -40,9 +50,9 @@ const context = {
     },
     skills: {
         title: 'Skills',
-        frontEnd: [
+        list: [
             {
-                name: 'React',
+                name: 'ReactJS',
                 scale: '80%',
             },
             {
@@ -50,19 +60,14 @@ const context = {
                 scale: '70%',
             },
             {
+                name: 'NestJS',
+                scale: '60%',
+            },
+            {
                 name: 'JavaScript',
                 scale: '85%',
             },
-            {
-                name: 'CSS3',
-                scale: '95%',
-            },
-            {
-                name: 'HTML5',
-                scale: '95%',
-            },
-        ],
-        backEnd: [
+            { name: 'CSS', scale: '90%' },
             {
                 name: 'NodeJS',
                 scale: '70%',

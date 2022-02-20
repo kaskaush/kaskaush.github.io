@@ -1,23 +1,17 @@
 import React from 'react';
 import Section from '../../core-components/Section';
-import ProgressBar from '../../core-components/ProgressBar';
+import SkillCard from '../../core-components/SkillCard';
 
-const SkillsSection = ({ title, frontEnd, backEnd }) => {
+const SkillsSection = ({ title, list }) => {
     return (
-        <Section title={title} id="skills-section">
+        <Section title={title} id="skills">
             <div className="skills-section">
-                <div className="skills-section__card">
-                    {frontEnd &&
-                        frontEnd.map((skill) => {
-                            return <ProgressBar key={skill.name} name={skill.name} value={skill.scale} />;
-                        })}
-                </div>
-                <div className="skills-section__card">
-                    {backEnd &&
-                        backEnd.map((skill) => {
-                            return <ProgressBar key={skill.name} name={skill.name} value={skill.scale} />;
-                        })}
-                </div>
+                {list &&
+                    list.map((skill) => {
+                        return (
+                            <SkillCard key={skill.name} imgSrc={skill.name} label={skill.name} progress={skill.scale} />
+                        );
+                    })}
             </div>
         </Section>
     );

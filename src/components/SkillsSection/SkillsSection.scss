@@ -1,11 +1,14 @@
+@import '../../core-components/SkillCard/SkillCard.scss';
+
 .skills-section {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-    @include breakpoint(medium) {
-        flex-direction: row;
-    }
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    scroll-margin-top: 4.875rem;
+    max-width: 90rem;
+    margin: 0 auto;
 
     &__card {
         display: flex;
@@ -14,6 +17,7 @@
         margin: 8px;
         border-radius: 4px;
         flex: 1;
+        border: 1px solid $grey-c0;
 
         @include breakpoint(medium) {
             padding: 20px;
