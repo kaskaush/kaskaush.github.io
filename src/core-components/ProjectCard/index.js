@@ -2,11 +2,15 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Pill from '../../core-components/Pill';
 
+const randomHSL = () => {
+    return `hsla(${~~(360 * Math.random())},70%,70%,0.9)`;
+};
+
 const ProjectCard = ({ _class, iconName, title, description, technologies, organization }) => {
     return (
         <div className={`project-card ${_class}`}>
             <div className="project-card__image-section">
-                <FontAwesomeIcon icon={iconName} />
+                <FontAwesomeIcon icon={iconName} color={randomHSL()} />
             </div>
             <div className="project-card__content-section">
                 <h3 className="project-card__title">{title}</h3>

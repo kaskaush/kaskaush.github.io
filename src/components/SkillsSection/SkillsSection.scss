@@ -10,17 +10,9 @@
     max-width: 90rem;
     margin: 0 auto;
 
-    &__card {
-        display: flex;
-        flex-direction: column;
-        padding: 8px;
-        margin: 8px;
-        border-radius: 4px;
-        flex: 1;
-        border: 1px solid $grey-c0;
-
+    .skill-card {
         @include breakpoint(medium) {
-            padding: 20px;
+            min-width: 12.5rem;
         }
     }
 }

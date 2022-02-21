@@ -6,6 +6,7 @@
     align-content: center;
     position: relative;
     align-items: center;
+    gap: 0.5rem;
 
     &__content {
         display: flex;
@@ -13,19 +14,19 @@
     }
 
     &__total-exp {
-        font-size: .75rem;
+        font-size: 0.75rem;
         line-height: 1.33;
         margin-bottom: 8px;
     }
 
     &__role-name {
-        font-size: .9375rem;
+        font-size: 0.9375rem;
         font-weight: 500;
         line-height: 1.33;
     }
 
     &__role-period {
-        font-size: .875rem;
+        font-size: 0.875rem;
         font-weight: 300;
         line-height: 1.33;
         margin-bottom: 8px;

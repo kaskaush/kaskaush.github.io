@@ -57,8 +57,11 @@
         @include breakpoint(medium) {
             bottom: auto;
             top: 50%;
-            width: auto;
             padding: 42px 64px 62px 64px;
+        }
+
+        @include breakpoint(xlarge) {
+            width: auto;
         }
     }
 
