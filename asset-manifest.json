@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4d47b107.css",
-    "main.js": "/static/js/main.cc4048c8.js",
+    "main.js": "/static/js/main.548d889d.js",
     "static/media/markus-spiske-hvSr_CVecVI-unsplash.jpeg": "/static/media/markus-spiske-hvSr_CVecVI-unsplash.e3727d47662421cda138.jpeg",
     "static/media/profile-pic.png": "/static/media/profile-pic.2e42d16314b2ce53c52e.png",
     "static/media/byjus.svg": "/static/media/byjus.b2659ef64d5a695ceaac1bf61bd698bc.svg",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.4d47b107.css",
-    "static/js/main.cc4048c8.js"
+    "static/js/main.548d889d.js"
   ]
 }
