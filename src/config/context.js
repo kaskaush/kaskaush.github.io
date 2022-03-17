@@ -39,9 +39,10 @@ const context = {
         ],
     },
     hero: {
+        careerStart: '27/01/2015',
         title: 'Hello World!',
         description:
-            "<p>I'm <span style='color:#f79a3c'>Kaushik Kasibhatla</span>, a full-stack web developer with 7+ years of experience, focused on designing and developing efficient, scalabe and performant applications.</p>",
+            "<p>I'm <span style='color:#f79a3c'>Kaushik Kasibhatla</span>, a full-stack web developer with {num_years} years of experience, focused on designing and developing efficient, scalabe and performant applications.</p>",
     },
     about: {
         title: 'About',
@@ -52,8 +53,20 @@ const context = {
         title: 'Skills',
         list: [
             {
+                name: 'JavaScript',
+                scale: '85%',
+            },
+            {
+                name: 'Java',
+                scale: '65%',
+            },
+            {
                 name: 'ReactJS',
                 scale: '80%',
+            },
+            {
+                name: 'NodeJS',
+                scale: '70%',
             },
             {
                 name: 'NextJS',
@@ -63,19 +76,7 @@ const context = {
                 name: 'NestJS',
                 scale: '60%',
             },
-            {
-                name: 'JavaScript',
-                scale: '85%',
-            },
             { name: 'CSS', scale: '90%' },
-            {
-                name: 'NodeJS',
-                scale: '70%',
-            },
-            {
-                name: 'Java',
-                scale: '65%',
-            },
             {
                 name: 'Springboot',
                 scale: '60%',
@@ -160,6 +161,14 @@ const context = {
         ],
     },
     projects: [
+        {
+            iconName: 'chart-line',
+            title: 'Apprise Analytics',
+            organization: 'Oracle',
+            description:
+                'Developed an analytics instrumentation application that replaces the capabilities of Google Analytics/Kissmetrics in current products. Developed script that can track page visits, user details, session details automatically on the client.',
+            technologies: ['Java', 'Springboot', 'ReactJS', 'Elastic', 'Oracle Cloud', 'Docker', 'Kubernetes'],
+        },
         {
             iconName: 'microchip',
             title: 'OA Provisioner',

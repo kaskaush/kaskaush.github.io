@@ -17,6 +17,7 @@ import {
     faAtom,
     faCubes,
     faChevronUp,
+    faChartLine,
 } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -48,7 +49,8 @@ const App = () => {
         faMicrochip,
         faAtom,
         faCubes,
-        faChevronUp
+        faChevronUp,
+        faChartLine
     );
     const [toggleBackToTop, setToggleBackToTop] = useState(false);
 
