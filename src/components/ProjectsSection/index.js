@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Section from '../../core-components/Section';
 import CustomSwiper from '../../core-components/Swiper';
 import ProjectCard from '../../core-components/ProjectCard';
@@ -23,4 +23,4 @@ const ProjectsSection = ({ projects }) => {
     );
 };
 
-export default ProjectsSection;
+export default memo(ProjectsSection);

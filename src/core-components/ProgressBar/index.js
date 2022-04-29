@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 const ProgressBar = ({ value }) => {
     return (
@@ -10,4 +10,4 @@ const ProgressBar = ({ value }) => {
     );
 };
 
-export default ProgressBar;
+export default memo(ProgressBar);

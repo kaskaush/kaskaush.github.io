@@ -40,7 +40,7 @@ const context = {
     },
     hero: {
         careerStart: '27/01/2015',
-        title: 'Hello World!',
+        title: 'Hello there!',
         description:
             "<p>I'm <span style='color:#f79a3c'>Kaushik Kasibhatla</span>, a full-stack web developer with {num_years} years of experience, focused on designing and developing efficient, scalabe and performant applications.</p>",
     },

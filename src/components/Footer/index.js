@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 const Footer = ({ copyRight }) => {
     return (
@@ -10,4 +10,4 @@ const Footer = ({ copyRight }) => {
     );
 };
 
-export default Footer;
+export default memo(Footer);

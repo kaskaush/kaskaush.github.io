@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Pill from '../../core-components/Pill';
 
 const randomHSL = () => {
-    return `hsla(${~~(360 * Math.random())},70%,70%,0.9)`;
+    return `hsl(${~~(360 * Math.random())},90%,70%)`;
 };
 
 const ProjectCard = ({ _class, iconName, title, description, technologies, organization }) => {

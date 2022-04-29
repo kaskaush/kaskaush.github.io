@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { getDateDifference } from '../../utility/timeUtils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -20,7 +20,9 @@ const Hero = ({ title, description, careerStart }) => {
             <div className="hero-mask"></div>
             <div className="hero__image" style={{ background: `url(${HeroImage}) repeat fixed 100%` }}></div>
             <div className="hero__content">
-                <h1 className="hero__title">{title}</h1>
+                <h1 className="hero__title">
+                    {title} <span class="wave">👋🏻</span>
+                </h1>
                 <div className="hero__description" dangerouslySetInnerHTML={{ __html: getDescription() }}></div>
             </div>
             <Button className="hero__scroll-btn" onClick={handleNavClick}>
@@ -30,4 +32,4 @@ const Hero = ({ title, description, careerStart }) => {
     );
 };
 
-export default Hero;
+export default memo(Hero);

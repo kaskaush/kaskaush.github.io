@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Section from '../../core-components/Section';
 import SkillCard from '../../core-components/SkillCard';
 
@@ -17,4 +17,4 @@ const SkillsSection = ({ title, list }) => {
     );
 };
 
-export default SkillsSection;
+export default memo(SkillsSection);

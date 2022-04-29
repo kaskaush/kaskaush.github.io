@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, memo } from 'react';
 import Logo from './partials/Logo';
 import SocialMenu from './partials/SocialMenu';
 import Overlay from '../../core-components/Overlay';
@@ -49,6 +49,4 @@ const Header = ({ logo, navMenu, socialLinks }) => {
     );
 };
 
-Header.propTypes = {};
-
-export default Header;
+export default memo(Header);

@@ -15,6 +15,7 @@
         height: 2px;
         bottom: 0;
         left: 0;
+        transform-origin: left bottom;
         background-color: $grey-10;
         visibility: hidden;
         transform: scaleX(0);
