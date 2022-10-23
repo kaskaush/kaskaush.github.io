@@ -1,9 +1,6 @@
 import React, { memo } from 'react';
 import { getDateDifference } from '../../utility/timeUtils';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Button from '../../core-components/Button';
-import HeroImage from '../../assets/markus-spiske-hvSr_CVecVI-unsplash.jpeg';
 
 const Hero = ({ title, description, careerStart }) => {
     const handleNavClick = () => {
