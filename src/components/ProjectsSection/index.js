@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import Section from '../../core-components/Section';
-import ProjectTile from '../../core-components/ProjectCard/ProjectTile';
+import ProjectTile from '../../core-components/ProjectTile/ProjectTile';
 
 const ProjectsSection = ({ projects }) => {
     return (
