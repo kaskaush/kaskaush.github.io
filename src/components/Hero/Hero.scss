@@ -14,78 +14,53 @@
 
 .hero {
     position: relative;
-
+    background-color: #0f3460;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 
-    &__image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-size: cover !important;
-    }
-
-    &-mask {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 1;
-    }
-
-    &__content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        text-align: center;
-        width: 90%;
-        //background: rgba(0, 0, 0, 0.25);
-        padding: 42px 38px 62px 38px;
-        //box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        //backdrop-filter: blur(6px);
-        //-webkit-backdrop-filter: blur(4px);
-        border-radius: 10px;
-
-        @include breakpoint(medium) {
-            bottom: auto;
-            top: 50%;
-            padding: 42px 64px 62px 64px;
-        }
-
-        @include breakpoint(xlarge) {
-            width: auto;
-        }
-    }
-
     &__title {
-        font-weight: 600;
+        font-weight: 300;
         font-size: 2.375rem;
         color: $white;
         margin-bottom: 12px;
         line-height: 1.67;
 
         @include breakpoint(medium) {
-            font-size: 4rem;
+            font-size: 3rem;
         }
     }
 
     &__description {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         color: $white;
         line-height: 1.67;
         font-weight: 200;
 
         @include breakpoint(medium) {
-            font-size: 1.75rem;
+            font-size: 1.125rem;
         }
+    }
+
+    &__content-wrapper {
+        padding: 0 16px;
+
+        @include breakpoint(medium) {
+            padding: 0 180px;
+        }
+    }
+
+    &__cta {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 24px;
+        margin: 16px 0;
+        border-radius: 24px;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1;
     }
 
     &__scroll-btn {
@@ -95,40 +70,5 @@
         bottom: 0;
         z-index: 2;
         animation: scroll-down 2s infinite;
-    }
-}
-
-.wave {
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
-}
-
-@keyframes wave-animation {
-    0% {
-        transform: rotate(0deg);
-    }
-    10% {
-        transform: rotate(14deg);
-    }
-    20% {
-        transform: rotate(-8deg);
-    }
-    30% {
-        transform: rotate(14deg);
-    }
-    40% {
-        transform: rotate(-4deg);
-    }
-    50% {
-        transform: rotate(10deg);
-    }
-    60% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(0deg);
     }
 }

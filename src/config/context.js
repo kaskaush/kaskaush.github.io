@@ -42,7 +42,7 @@ const context = {
         careerStart: '27/01/2015',
         title: 'Hello there!',
         description:
-            "<p>I'm <span style='color:#f79a3c'>Kaushik Kasibhatla</span>, a full-stack web developer with {num_years} years of experience, focused on designing and developing efficient, scalabe and performant applications.</p>",
+            "<p>My name is Kaushik Kasibhatla. I'm a full-stack web developer based out of Bengaluru, India with {num_years} years of experience, focused on designing and developing efficient, scalabe and performant applications.</p><br/><p style='font-weight:600;color:#e94560'>#programmer #gamer #explorer #foodie</p>",
     },
     about: {
         title: 'About',
@@ -150,11 +150,26 @@ const context = {
                     alt: 'Oracle',
                 },
                 start: '18/01/2021',
-                end: '',
+                end: '19/06/2022',
                 roles: [
                     {
                         role: 'Senior Software Engineer',
                         period: 'Jan 2021 - Present',
+                    },
+                ],
+            },
+            {
+                company: 'ibm_cloud',
+                image: {
+                    src: 'logos/ibm_cloud.svg',
+                    alt: 'IBM Cloud',
+                },
+                start: '23/06/2022',
+                end: '',
+                roles: [
+                    {
+                        role: 'Advisory Software Engineer',
+                        period: 'Jun 2022 - Present',
                     },
                 ],
             },

@@ -1,23 +1,15 @@
 import React, { memo } from 'react';
 import Section from '../../core-components/Section';
-import CustomSwiper from '../../core-components/Swiper';
-import ProjectCard from '../../core-components/ProjectCard';
-import { SwiperSlide } from 'swiper/react';
+import ProjectTile from '../../core-components/ProjectCard/ProjectTile';
 
 const ProjectsSection = ({ projects }) => {
     return (
-        <Section title={'Projects'} _class="projects-wrapper" id="projects">
+        <Section inverse title={'Projects'} id="projects">
             <div className="projects-section">
-                <CustomSwiper>
-                    {projects &&
-                        projects.map((item) => {
-                            return (
-                                <SwiperSlide key={item.title}>
-                                    <ProjectCard _class="swiper-slide" {...item} />
-                                </SwiperSlide>
-                            );
-                        })}
-                </CustomSwiper>
+                {projects &&
+                    projects.map((item) => {
+                        return <ProjectTile {...item} />;
+                    })}
             </div>
         </Section>
     );

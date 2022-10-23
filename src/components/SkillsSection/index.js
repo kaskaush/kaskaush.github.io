@@ -4,7 +4,7 @@ import SkillCard from '../../core-components/SkillCard';
 
 const SkillsSection = ({ title, list }) => {
     return (
-        <Section title={title} id="skills">
+        <Section inverse title={title} id="skills">
             <div className="skills-section">
                 {list &&
                     list.map((skill) => {

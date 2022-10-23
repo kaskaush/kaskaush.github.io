@@ -31,4 +31,10 @@
         line-height: 1.33;
         margin-bottom: 8px;
     }
+
+    .showcase-card {
+        @include breakpoint(medium) {
+            flex-basis: 23%;
+        }
+    }
 }

@@ -8,12 +8,13 @@ const Section = ({ title, children, inverse, _class, id }) => {
     };
     return (
         <IntersectionObserver onIntersection={handleIntersection}>
-            <div
-                className={`section ${inverse ? 'inverse' : ''} ${_class || ''} ${isIntersected ? 'animate' : ''}`}
-                id={id}
-            >
-                <h2 className="section__title">{title}</h2>
-                {children}
+            <div className={`section ${_class || ''} ${isIntersected ? 'animate' : ''}`} id={id}>
+                <div className="container">
+                    <h2 className={`section__title ${inverse ? 'inverse' : ''}`}>
+                        <span className={`section__title-text ${inverse ? 'inverse' : ''}`}>{title}</span>
+                    </h2>
+                    {children}
+                </div>
             </div>
         </IntersectionObserver>
     );

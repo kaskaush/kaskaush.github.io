@@ -34,17 +34,19 @@ const Header = ({ logo, navMenu, socialLinks }) => {
 
     return (
         <header className={`header header-work ${isScrolled ? 'scroll-active' : ''}`}>
-            <Logo {...logo} />
-            <NavMenu data={navMenu} />
-            <SocialMenu data={socialLinks} />
-            {/* <Button className="header__nav-menu-mobile" onClick={toggleOverlay}>
+            <div className="container">
+                <Logo {...logo} />
+                <NavMenu data={navMenu} />
+                <SocialMenu data={socialLinks} />
+                {/* <Button className="header__nav-menu-mobile" onClick={toggleOverlay}>
                 <FontAwesomeIcon icon={faBars} />
             </Button> */}
-            {displayOverlay && (
-                <Overlay withEscClose onClose={toggleOverlay}>
-                    <NavMenu data={navMenu} />
-                </Overlay>
-            )}
+                {displayOverlay && (
+                    <Overlay withEscClose onClose={toggleOverlay}>
+                        <NavMenu data={navMenu} />
+                    </Overlay>
+                )}
+            </div>
         </header>
     );
 };

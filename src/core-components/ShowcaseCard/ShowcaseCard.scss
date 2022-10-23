@@ -9,24 +9,6 @@
     border-top-right-radius: 4px;
     z-index: 2;
 
-    &:hover,
-    &:focus {
-        transform: scale(1.2) translateY(-40px);
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        background-color: $white;
-        z-index: 3;
-
-        .showcase-card__image-wrapper {
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
-        }
-
-        .showcase-card__content-section {
-            transform: translateY(0);
-            opacity: 1;
-        }
-    }
-
     &__image-wrapper {
         position: relative;
         padding: 15px;

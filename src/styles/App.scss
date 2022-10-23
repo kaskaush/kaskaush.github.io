@@ -5,7 +5,7 @@
 @import '../core-components/Button/Button.scss';
 @import '../core-components/Section/Section.scss';
 @import '../core-components/ShowcaseCard/ShowcaseCard.scss';
-@import '../core-components/ProjectCard/ProjectCard.scss';
+@import '../core-components/ProjectTile/ProjectTile.scss';
 @import '../core-components/ProgressBar/ProgressBar.scss';
 
 /* Components */
@@ -71,4 +71,16 @@
 .scroll-to-top-icon {
     color: #fff;
     animation: scroll-up 1.5s infinite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    @include breakpoint(medium) {
+        padding: 0 48px;
+    }
 }

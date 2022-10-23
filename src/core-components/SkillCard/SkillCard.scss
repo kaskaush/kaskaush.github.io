@@ -5,11 +5,8 @@
     border-radius: 6px;
     gap: 12px;
     transition: all 250ms;
-
-    &:hover {
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        transition: all 250ms;
-    }
+    background: #0f3460;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
 
     &__title-section {
         display: flex;

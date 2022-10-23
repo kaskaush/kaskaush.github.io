@@ -1,17 +1,11 @@
 .projects-section {
     position: relative;
-    .swiper-slide {
-        width: 300px;
-        min-height: 450px;
+    display: grid;
+    grid-template-columns: auto;
+    @include breakpoint(medium) {
+        grid-template-columns: auto auto auto auto;
     }
-
-    .swiper-button-prev {
-        left: 18px;
-    }
-
-    .swiper-button-next {
-        right: 36px;
-    }
+    grid-gap: 1rem;
 }
 
 .projects-wrapper {

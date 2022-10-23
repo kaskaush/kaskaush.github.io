@@ -22,7 +22,7 @@
         width: 100%;
         height: 20px;
         border-radius: 4px;
-        background: $grey-c4;
+        background: #16213E;
         overflow: hidden;
 
         /* @include breakpoint(large) {
@@ -36,7 +36,7 @@
         left: 0;
         height: 100%;
         border-radius: 4px;
-        background: $grey-50;
+        background: #E94560;
         animation: animate-progress 2s ease-in-out 2s forwards;
     }
 }
