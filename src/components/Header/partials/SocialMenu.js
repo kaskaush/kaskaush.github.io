@@ -1,6 +1,6 @@
 import React from 'react';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import SocialButton from '../../../core-components/SocialButton';
 
 const SocialMenu = ({ data }) => {
@@ -17,6 +17,10 @@ const SocialMenu = ({ data }) => {
 
             case 'github':
                 iconType = faGithub;
+                break;
+
+            case 'instagram':
+                iconType = faInstagram;
                 break;
 
             default:

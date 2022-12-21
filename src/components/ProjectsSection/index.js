@@ -4,7 +4,7 @@ import ProjectTile from '../../core-components/ProjectTile/ProjectTile';
 
 const ProjectsSection = ({ projects }) => {
     return (
-        <Section inverse title={'Projects'} id="projects">
+        <Section inverse title="Work" id="work">
             <div className="projects-section">
                 {projects &&
                     projects.map((item) => {

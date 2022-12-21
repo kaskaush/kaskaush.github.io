@@ -31,7 +31,6 @@ const SkillCard = ({ imgSrc, label, progress }) => {
                 <img src={imagePath[imgSrc]} alt={label} className="skill-card__image" />
                 <span>{label}</span>
             </div>
-            <ProgressBar value={progress} />
         </div>
     );
 };

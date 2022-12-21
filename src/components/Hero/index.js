@@ -13,13 +13,13 @@ const Hero = ({ title, description, careerStart }) => {
     };
 
     return (
-        <div className="hero" id="home">
+        <div className="hero" id="about">
             <div className="container">
                 <div className="hero__content-wrapper">
                     <h1 className="hero__title">{title}</h1>
                     <div className="hero__description" dangerouslySetInnerHTML={{ __html: getDescription() }}></div>
                     <Button className="hero__cta" onClick={handleNavClick}>
-                        Know More
+                        Know more
                     </Button>
                 </div>
             </div>

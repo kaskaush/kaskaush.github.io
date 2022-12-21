@@ -7,9 +7,9 @@ const context = {
         },
         navMenu: [
             {
-                label: 'Home',
-                ariaLabel: 'home',
-                url: 'home',
+                label: 'About',
+                ariaLabel: 'about',
+                url: 'about',
             },
             {
                 label: 'Skills',
@@ -22,9 +22,9 @@ const context = {
                 url: 'experience',
             },
             {
-                label: 'Projects',
-                ariaLabel: 'projects',
-                url: 'projects',
+                label: 'Work',
+                ariaLabel: 'work',
+                url: 'work',
             },
         ],
         socialLinks: [
@@ -35,6 +35,10 @@ const context = {
             {
                 type: 'github',
                 url: 'https://github.com/kaskaush/',
+            },
+            {
+                type: 'instagram',
+                url: 'https://www.instagram.com/kaushikkasibhatla/',
             },
         ],
     },
@@ -68,15 +72,6 @@ const context = {
                 name: 'NodeJS',
                 scale: '70%',
             },
-            {
-                name: 'NextJS',
-                scale: '70%',
-            },
-            {
-                name: 'NestJS',
-                scale: '60%',
-            },
-            { name: 'CSS', scale: '90%' },
             {
                 name: 'Springboot',
                 scale: '60%',
@@ -299,7 +294,7 @@ const context = {
     ],
     footer: {
         copyRight: {
-            text: 'Copyright © 2021 Kaushik Kasibhatla. All rights reserved.',
+            text: 'Copyright © 2022 Kaushik Kasibhatla. All rights reserved.',
         },
     },
 };

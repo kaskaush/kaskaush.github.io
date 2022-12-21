@@ -12,7 +12,7 @@
 
     .skill-card {
         @include breakpoint(medium) {
-            min-width: 12.5rem;
+            min-width: 9rem;
         }
     }
 }
