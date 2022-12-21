@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.89900e55.css",
-    "main.js": "/static/js/main.70f09da0.js",
+    "main.css": "/static/css/main.6b5aeebe.css",
+    "main.js": "/static/js/main.09bb4b55.js",
     "static/media/profile-pic.png": "/static/media/profile-pic.2e42d16314b2ce53c52e.png",
     "static/media/ibm_cloud.svg": "/static/media/ibm_cloud.9ac58798cd2920f5c9afc47fbdbc7e18.svg",
     "static/media/byjus.svg": "/static/media/byjus.b2659ef64d5a695ceaac1bf61bd698bc.svg",
@@ -19,11 +19,11 @@
     "static/media/oracle.svg": "/static/media/oracle.186a79a7011fe20887073428897aa9c0.svg",
     "static/media/css.svg": "/static/media/css.6b6f52e770d91259d3a93d7438a09d7c.svg",
     "static/media/nextjs.svg": "/static/media/nextjs.8f1ec5331a56f083f05557fe2d8b64c8.svg",
-    "main.89900e55.css.map": "/static/css/main.89900e55.css.map",
-    "main.70f09da0.js.map": "/static/js/main.70f09da0.js.map"
+    "main.6b5aeebe.css.map": "/static/css/main.6b5aeebe.css.map",
+    "main.09bb4b55.js.map": "/static/js/main.09bb4b55.js.map"
   },
   "entrypoints": [
-    "static/css/main.89900e55.css",
-    "static/js/main.70f09da0.js"
+    "static/css/main.6b5aeebe.css",
+    "static/js/main.09bb4b55.js"
   ]
 }
