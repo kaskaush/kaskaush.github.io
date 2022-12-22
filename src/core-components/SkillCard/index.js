@@ -10,6 +10,7 @@ import spring from '../../assets/logos/spring.svg';
 import docker from '../../assets/logos/docker.svg';
 import kubernetes from '../../assets/logos/kubernetes.svg';
 import cssLogo from '../../assets/logos/css.svg';
+import go from '../../assets/logos/go.svg';
 
 const imagePath = {
     ReactJS: react,
@@ -22,6 +23,7 @@ const imagePath = {
     Springboot: spring,
     Docker: docker,
     Kubernetes: kubernetes,
+    Go: go
 };
 
 const SkillCard = ({ imgSrc, label, progress }) => {

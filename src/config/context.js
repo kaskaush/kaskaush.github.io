@@ -46,7 +46,7 @@ const context = {
         careerStart: '27/01/2015',
         title: 'Hello there!',
         description:
-            "<p>My name is Kaushik Kasibhatla. I'm a full-stack web developer based out of Bengaluru, India with {num_years} years of experience, focused on designing and developing efficient, scalabe and performant applications.</p><br/><p style='font-weight:600;color:#e94560'>#programmer #gamer #explorer #foodie</p>",
+            "<p>I'm Kaushik Kasibhatla, a full-stack web developer based out of Bengaluru, India with {num_years} years of experience, focused on designing and developing efficient, scalabe and performant applications. Currently, I'm building tools that monitor the entire network infrastructure at <span style='color:#e94560'>IBM Cloud</span>.</p><br/><p style='font-weight:600;color:#e94560'>#programmer #gamer #explorer #foodie</p>",
     },
     about: {
         title: 'About',
@@ -54,7 +54,7 @@ const context = {
             'Self directed individual with proven ability to deliver high quality product on time under minimal supervision. Well experienced in development of applications with end-to-end responsibility. Very committed and a capable programmer. Proven expertise in ramping up in new technologies. Able to apply design concepts and efficiently use data structures to solve the problem at hand.',
     },
     skills: {
-        title: 'Skills',
+        title: 'Tech I Know',
         list: [
             {
                 name: 'JavaScript',
@@ -63,6 +63,10 @@ const context = {
             {
                 name: 'Java',
                 scale: '65%',
+            },
+            {
+                name: 'Go',
+                scale: '50%',
             },
             {
                 name: 'ReactJS',
@@ -87,7 +91,7 @@ const context = {
         ],
     },
     experience: {
-        title: 'Experience',
+        title: "Where I've worked",
         data: [
             {
                 company: 'byjus',
@@ -186,14 +190,6 @@ const context = {
             description:
                 'Designed and developed a resource provisioning application from scratch that acts as a central service for product users to manage product provisioning and client requests.',
             technologies: ['Java', 'Springboot', 'ReactJS', 'NodeJS', 'Docker', 'Kubernetes'],
-        },
-        {
-            iconName: 'video',
-            title: 'Video Keyword Extractor',
-            organization: 'Oracle',
-            description:
-                'Worked on tech stack migration from Vanilla JS to NextJS of a keyword extraction application that visualizes the keywords from a video as a heatmap.',
-            technologies: ['ReactJS', 'NodeJS', 'NextJS'],
         },
         {
             iconName: 'desktop',

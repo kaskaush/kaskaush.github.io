@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.scss';
 
 import App from './App';
@@ -7,13 +7,14 @@ import * as serviceWorker from './serviceWorker';
 import { StateProvider } from './config/store';
 import smoothscroll from 'smoothscroll-polyfill';
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+
+root.render(
     <React.StrictMode>
         <StateProvider>
             <App />
         </StateProvider>
-    </React.StrictMode>,
-    document.getElementById('root')
+    </React.StrictMode>
 );
 
 smoothscroll.polyfill();
