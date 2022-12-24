@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e9be6f0.css",
-    "main.js": "/static/js/main.580572e6.js",
+    "main.css": "/static/css/main.b325a0ad.css",
+    "main.js": "/static/js/main.5f4c04f1.js",
     "static/media/profile-pic.png": "/static/media/profile-pic.2e42d16314b2ce53c52e.png",
-    "static/media/ibm_cloud.svg": "/static/media/ibm_cloud.9ac58798cd2920f5c9afc47fbdbc7e18.svg",
-    "static/media/byjus.svg": "/static/media/byjus.b2659ef64d5a695ceaac1bf61bd698bc.svg",
-    "static/media/infosys.svg": "/static/media/infosys.262039cf8649cac13be15f6dc4a7c17a.svg",
-    "static/media/ps.svg": "/static/media/ps.7f560fb3f7d147b78e819fa04c9729d2.svg",
+    "static/media/ibm_cloud.svg": "/static/media/ibm_cloud.f6df3e3af02627f8b8093646bf077a3f.svg",
+    "static/media/byjus.svg": "/static/media/byjus.0fd79483304c6e9bb63235be2d2853cc.svg",
+    "static/media/infosys.svg": "/static/media/infosys.8f00b998c3329f940d4df7b116c53ca0.svg",
+    "static/media/ps.svg": "/static/media/ps.8aa8ca3cd2b60ee85ea0069591fc676d.svg",
     "static/media/spring.svg": "/static/media/spring.8961d2b4bb9ca712f93ff6e190e73bf3.svg",
     "static/media/kubernetes.svg": "/static/media/kubernetes.98bbc6a595e48652d2d0426dd854e7bb.svg",
     "static/media/go.svg": "/static/media/go.a7ec2a5cabbfaa86d4ab2049185ce4d0.svg",
@@ -17,14 +17,14 @@
     "static/media/nestjs.svg": "/static/media/nestjs.836a30e42083d1a59971c984739b3d93.svg",
     "static/media/js.svg": "/static/media/js.f719efab5b799ddc35b5055935a3cedd.svg",
     "index.html": "/index.html",
-    "static/media/oracle.svg": "/static/media/oracle.186a79a7011fe20887073428897aa9c0.svg",
+    "static/media/oracle.svg": "/static/media/oracle.1f2cbc7fa76fb23f3c839a800efbb181.svg",
     "static/media/css.svg": "/static/media/css.6b6f52e770d91259d3a93d7438a09d7c.svg",
     "static/media/nextjs.svg": "/static/media/nextjs.8f1ec5331a56f083f05557fe2d8b64c8.svg",
-    "main.9e9be6f0.css.map": "/static/css/main.9e9be6f0.css.map",
-    "main.580572e6.js.map": "/static/js/main.580572e6.js.map"
+    "main.b325a0ad.css.map": "/static/css/main.b325a0ad.css.map",
+    "main.5f4c04f1.js.map": "/static/js/main.5f4c04f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e9be6f0.css",
-    "static/js/main.580572e6.js"
+    "static/css/main.b325a0ad.css",
+    "static/js/main.5f4c04f1.js"
   ]
 }
