@@ -1,5 +1,4 @@
 import React from 'react';
-import ProgressBar from '../ProgressBar';
 import react from '../../assets/logos/reactjs.svg';
 import next from '../../assets/logos/nextjs.svg';
 import nest from '../../assets/logos/nestjs.svg';
@@ -23,7 +22,7 @@ const imagePath = {
     Springboot: spring,
     Docker: docker,
     Kubernetes: kubernetes,
-    Go: go
+    Go: go,
 };
 
 const SkillCard = ({ imgSrc, label, progress }) => {
