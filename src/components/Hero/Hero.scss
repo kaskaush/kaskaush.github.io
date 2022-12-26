@@ -87,6 +87,11 @@
     position: absolute;
     width: 100%;
     filter: blur(40px);
+    top: 25%;
+
+    @include breakpoint(medium) {
+        left: 5%;
+    }
 }
 
 .shape-blob {
@@ -156,6 +161,16 @@
         width: 100px;
         left: 160px;
         top: 200px;
+        transform: rotate(-180deg);
+        animation: transform 5s ease-in-out infinite both alternate, movement_two 5s ease-in-out infinite both;
+    }
+
+    &.seven {
+        background: #0eafff;
+        height: 120px;
+        width: 150px;
+        left: 1000px;
+        top: 40px;
         transform: rotate(-180deg);
         animation: transform 5s ease-in-out infinite both alternate, movement_two 5s ease-in-out infinite both;
     }
