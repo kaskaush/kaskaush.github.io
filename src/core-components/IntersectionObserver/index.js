@@ -1,9 +1,15 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { cloneElement, useState, useEffect, useRef } from 'react';
-import { func, node, oneOfType, shape, element, number, arrayOf, string } from 'prop-types';
-import throttle from 'raf-throttle';
+import throttle from 'lodash.throttle';
 
-const WithIntersectionObserver = ({ onIntersection, settings, children, checkUserStopBy = false }) => {
+const WithIntersectionObserver = ({
+    onIntersection = undefined,
+    settings = {
+        rootMargin: '50px',
+        threshold: 0.0,
+    },
+    children = undefined,
+    checkUserStopBy = false,
+}) => {
     const [hasNodeIntersected, setHasNodeIntersected] = useState(false);
     const [interSectedNode, setInterSectedNode] = useState(null);
     const childNodeRef = useRef(null);
@@ -61,25 +67,6 @@ const WithIntersectionObserver = ({ onIntersection, settings, children, checkUse
     const ChildWithProp = cloneElement(children, { ...compProps });
 
     return ChildWithProp;
-};
-
-WithIntersectionObserver.defaultProps = {
-    children: undefined,
-    onIntersection: undefined,
-    settings: {
-        rootMargin: '50px',
-        threshold: 0.0,
-    },
-};
-
-WithIntersectionObserver.propTypes = {
-    onIntersection: func,
-    children: oneOfType([node, func]),
-    settings: shape({
-        root: element,
-        rootMargin: string,
-        threshold: oneOfType([number.isRequired, arrayOf(number.isRequired).isRequired]),
-    }),
 };
 
 export default WithIntersectionObserver;
