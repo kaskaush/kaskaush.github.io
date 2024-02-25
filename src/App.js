@@ -18,6 +18,7 @@ import {
     faCubes,
     faChevronUp,
     faChartLine,
+    faNetworkWired,
 } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -50,7 +51,8 @@ const App = () => {
         faAtom,
         faCubes,
         faChevronUp,
-        faChartLine
+        faChartLine,
+        faNetworkWired
     );
     const [toggleBackToTop, setToggleBackToTop] = useState(false);
 

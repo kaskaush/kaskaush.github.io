@@ -176,6 +176,14 @@ const context = {
     },
     projects: [
         {
+            iconName: 'network-wired',
+            title: 'Oculus Network Monitoring',
+            organization: 'IBM Cloud',
+            description:
+                'Ingest, process and analyze huge volumes of logs and metrics for 80K+ devices across 60 datacenters in the world. Worked on an alerting platform for network engineers that sift through millions of logs and generate meaningful alerts.',
+            technologies: ['Golang', 'Telegraf', 'InfluxDB', 'Kapacitor', 'Python', 'IBM Cloud', 'Nomad', 'Docker'],
+        },
+        {
             iconName: 'chart-line',
             title: 'Apprise Analytics',
             organization: 'Oracle',
@@ -257,7 +265,7 @@ const context = {
         },
         {
             iconName: 'poll',
-            title: "Digital Marketing Platform",
+            title: 'Digital Marketing Platform',
             organization: "Byju's",
             description:
                 'Designed several landing pages for campaigns under Digital Marketing Platform that gained a revenue boost of 30% and inbound traffic.',
@@ -266,7 +274,7 @@ const context = {
 
         {
             iconName: 'users',
-            title: "Class Scheduler",
+            title: 'Class Scheduler',
             organization: "Byju's",
             description:
                 'An application to manage student information, schedules and marks across the organization. Developed APIs to retrieve student data and worked on UI/UX across the application.',

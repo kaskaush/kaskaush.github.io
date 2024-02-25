@@ -104,7 +104,7 @@
     position: absolute;
     width: 100%;
     filter: blur(30px);
-    top: 25%;
+    top: 30%;
 }
 
 .shape-blob {
@@ -112,7 +112,7 @@
     height: 60px;
     width: 80px;
     border-radius: 40% 50% 30% 40%;
-    animation: transform 18s ease-in-out infinite both alternate, movement_one 12s ease-in-out infinite both;
+    animation: transform 18s ease-in-out infinite both alternate, movement_one 10s ease-in-out infinite both;
     opacity: 0.7;
     position: absolute;
     left: 75%;
@@ -125,7 +125,7 @@
         left: 100px;
         top: 10px;
         transform: rotate(-180deg);
-        animation: transform 8s ease-in-out infinite both alternate, movement_two 20s ease-in-out infinite both;
+        animation: transform 8s ease-in-out infinite both alternate, movement_two 18s ease-in-out infinite both;
     }
 
     &.two {
@@ -135,7 +135,7 @@
         left: 600px;
         top: 150px;
         transform: rotate(-180deg);
-        animation: transform 10s ease-in-out infinite both alternate, movement_two 10s ease-in-out infinite both;
+        animation: transform 10s ease-in-out infinite both alternate, movement_two 8s ease-in-out infinite both;
     }
 
     &.three {
@@ -145,7 +145,7 @@
         left: 800px;
         top: 30px;
         transform: rotate(-180deg);
-        animation: transform 7s ease-in-out infinite both alternate, movement_two 23s ease-in-out infinite both;
+        animation: transform 7s ease-in-out infinite both alternate, movement_two 21s ease-in-out infinite both;
     }
 
     &.four {
@@ -155,7 +155,7 @@
         left: 350px;
         top: 60px;
         transform: rotate(-180deg);
-        animation: transform 17s ease-in-out infinite both alternate, movement_two 13s ease-in-out infinite both;
+        animation: transform 17s ease-in-out infinite both alternate, movement_two 11s ease-in-out infinite both;
     }
 
     &.five {
@@ -165,7 +165,7 @@
         left: 480px;
         top: 30px;
         transform: rotate(-180deg);
-        animation: transform 12s ease-in-out infinite both alternate, movement_two 18s ease-in-out infinite both;
+        animation: transform 12s ease-in-out infinite both alternate, movement_two 16s ease-in-out infinite both;
     }
 
     &.six {
@@ -175,7 +175,7 @@
         left: 160px;
         top: 200px;
         transform: rotate(-180deg);
-        animation: transform 5s ease-in-out infinite both alternate, movement_two 5s ease-in-out infinite both;
+        animation: transform 5s ease-in-out infinite both alternate, movement_two 3s ease-in-out infinite both;
     }
 
     &.seven {
@@ -185,7 +185,7 @@
         left: 1000px;
         top: 40px;
         transform: rotate(-180deg);
-        animation: transform 5s ease-in-out infinite both alternate, movement_two 5s ease-in-out infinite both;
+        animation: transform 5s ease-in-out infinite both alternate, movement_two 3s ease-in-out infinite both;
     }
 }
 
