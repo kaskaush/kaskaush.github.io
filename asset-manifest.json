@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e0a2b9f.css",
-    "main.js": "/static/js/main.65b9b7dd.js",
+    "main.css": "/static/css/main.a1380173.css",
+    "main.js": "/static/js/main.864e2e94.js",
     "static/media/profile-pic.png": "/static/media/profile-pic.2e42d16314b2ce53c52e.png",
     "static/media/ibm_cloud.svg": "/static/media/ibm_cloud.f6df3e3af02627f8b8093646bf077a3f.svg",
     "static/media/byjus.svg": "/static/media/byjus.0fd79483304c6e9bb63235be2d2853cc.svg",
@@ -9,7 +9,7 @@
     "static/media/ps.svg": "/static/media/ps.8aa8ca3cd2b60ee85ea0069591fc676d.svg",
     "static/media/spring.svg": "/static/media/spring.8961d2b4bb9ca712f93ff6e190e73bf3.svg",
     "static/media/kubernetes.svg": "/static/media/kubernetes.98bbc6a595e48652d2d0426dd854e7bb.svg",
-    "static/media/go.svg": "/static/media/go.a7ec2a5cabbfaa86d4ab2049185ce4d0.svg",
+    "static/media/go.svg": "/static/media/go.83e241b0562e629eaec59993e2b230e0.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.57a71da916289f16ea11ce827f0b810e.svg",
     "static/media/docker.svg": "/static/media/docker.459b8c3694d76785b113587280fd6074.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.ca7d509723af4bcecb79debeba809532.svg",
@@ -20,11 +20,11 @@
     "static/media/oracle.svg": "/static/media/oracle.1f2cbc7fa76fb23f3c839a800efbb181.svg",
     "static/media/css.svg": "/static/media/css.6b6f52e770d91259d3a93d7438a09d7c.svg",
     "static/media/nextjs.svg": "/static/media/nextjs.8f1ec5331a56f083f05557fe2d8b64c8.svg",
-    "main.3e0a2b9f.css.map": "/static/css/main.3e0a2b9f.css.map",
-    "main.65b9b7dd.js.map": "/static/js/main.65b9b7dd.js.map"
+    "main.a1380173.css.map": "/static/css/main.a1380173.css.map",
+    "main.864e2e94.js.map": "/static/js/main.864e2e94.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e0a2b9f.css",
-    "static/js/main.65b9b7dd.js"
+    "static/css/main.a1380173.css",
+    "static/js/main.864e2e94.js"
   ]
 }
