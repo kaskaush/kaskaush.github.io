@@ -5,8 +5,8 @@
     border-radius: 6px;
     gap: 12px;
     transition: all 250ms;
-    background: #0f3460;
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+    //background: #0f3460;
+    //box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
 
     &__title-section {
         display: flex;
@@ -23,5 +23,9 @@
             width: 4rem;
             height: 4rem;
         }
+    }
+
+    &__icon {
+        font-size: 5rem;
     }
 }

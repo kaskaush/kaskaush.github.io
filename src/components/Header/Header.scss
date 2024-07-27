@@ -1,6 +1,5 @@
 @import '../../core-components/NavItem/NavItem.scss';
 @import '../../core-components/SocialButton/SocialButton.scss';
-@import '../../core-components/Overlay/Overlay.scss';
 
 .header {
     padding: 20px 4px;
@@ -107,7 +106,7 @@
 
     &.scroll-active {
         padding: 15px 4px;
-        background: rgba(15, 52, 96,0.25);
+        background: rgba(15, 52, 96, 0.25);
         backdrop-filter: blur(6px);
         -webkit-backdrop-filter: blur(6px);
 

@@ -48,45 +48,32 @@ const context = {
         description:
             "<p>I'm Kaushik Kasibhatla, a full-stack web developer based out of Bengaluru, India with {num_years} years of experience, focused on designing and developing efficient, scalabe and performant applications. Currently, I'm building tools that monitor the entire network infrastructure at <span style='color:#e94560'>IBM Cloud</span>.</p><br/><p style='font-weight:600;color:#e94560'>#programmer #gamer #explorer #foodie</p>",
     },
-    about: {
-        title: 'About',
-        description:
-            'Self directed individual with proven ability to deliver high quality product on time under minimal supervision. Well experienced in development of applications with end-to-end responsibility. Very committed and a capable programmer. Proven expertise in ramping up in new technologies. Able to apply design concepts and efficiently use data structures to solve the problem at hand.',
-    },
     skills: {
         title: 'Tech I Know',
         list: [
             {
-                name: 'JavaScript',
-                scale: '85%',
+                name: 'javascript',
             },
             {
-                name: 'Java',
-                scale: '65%',
+                name: 'java',
             },
             {
-                name: 'Go',
-                scale: '50%',
+                name: 'go',
             },
             {
-                name: 'ReactJS',
-                scale: '80%',
+                name: 'react',
             },
             {
-                name: 'NodeJS',
-                scale: '70%',
+                name: 'nodejs',
             },
             {
-                name: 'Springboot',
-                scale: '60%',
+                name: 'spring',
             },
             {
-                name: 'Docker',
-                scale: '70%',
+                name: 'docker',
             },
             {
-                name: 'Kubernetes',
-                scale: '60%',
+                name: 'kubernetes',
             },
         ],
     },
@@ -101,12 +88,6 @@ const context = {
                 },
                 start: '27/01/2015',
                 end: '15/12/2015',
-                roles: [
-                    {
-                        role: 'Associate Software Developer',
-                        period: 'Jan 2015 - Dec 2015',
-                    },
-                ],
             },
             {
                 company: 'infosys',
@@ -116,16 +97,6 @@ const context = {
                 },
                 start: '21/12/2015',
                 end: '16/07/2018',
-                roles: [
-                    {
-                        role: 'Senior Systems Engineer',
-                        period: 'Jan 2018 - Jul 2018',
-                    },
-                    {
-                        role: 'Systems Engineer',
-                        period: 'Dec 2015 - Dec 2017',
-                    },
-                ],
             },
             {
                 company: 'publicis sapient',
@@ -135,12 +106,6 @@ const context = {
                 },
                 start: '18/07/2018',
                 end: '15/01/2021',
-                roles: [
-                    {
-                        role: 'Senior Associate',
-                        period: 'Jul 2018 - Jan 2021',
-                    },
-                ],
             },
             {
                 company: 'oracle',
@@ -150,12 +115,6 @@ const context = {
                 },
                 start: '18/01/2021',
                 end: '19/06/2022',
-                roles: [
-                    {
-                        role: 'Senior Software Engineer',
-                        period: 'Jan 2021 - Present',
-                    },
-                ],
             },
             {
                 company: 'ibm_cloud',
@@ -165,12 +124,6 @@ const context = {
                 },
                 start: '23/06/2022',
                 end: '',
-                roles: [
-                    {
-                        role: 'Advisory Software Engineer',
-                        period: 'Jun 2022 - Present',
-                    },
-                ],
             },
         ],
     },
@@ -298,7 +251,7 @@ const context = {
     ],
     footer: {
         copyRight: {
-            text: 'Copyright © 2022 Kaushik Kasibhatla. All rights reserved.',
+            text: 'Copyright © 2024 Kaushik Kasibhatla. All rights reserved.',
         },
     },
 };
